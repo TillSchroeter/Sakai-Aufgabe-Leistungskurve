@@ -1,3 +1,3 @@
 # Sakai-Aufgabe-Leistungskurve
-Leistungskurve von Till Schröter; Finn Petroll moin
+Leistungskurve von Till Schröter; Finn Petroll
 
