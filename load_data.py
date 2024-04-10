@@ -29,7 +29,3 @@ def load_data(file_path):
     sorted_power_W = bubble_sort(power_W)
     print(sorted_power_W[::-1])'''
   
-#Power_W_sorted = bubble_sort(power_W)
-#print (Power_W_sorted)
-
-#x = 3
