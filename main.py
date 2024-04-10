@@ -9,8 +9,8 @@ from load_data import load_data
 data = [10,9,8,7,6,5,4,3,2,1]
 plt.plot(time, data)
 plt.show
-plt.savefig('plot.png')
-print (load_data.Power_W_sorted)'''
+plt.savefig('bsp.png')'''
+
 
 if __name__ == "__main__":
     data = load_data('activity.csv')
@@ -21,11 +21,8 @@ if __name__ == "__main__":
 
 
 print (len(sorted_power_W))
-# Gesamtanzahl der Zahlen im Array
-num_points = 1804
-# Dauer der Zeit in Sekunden (30 Minuten und 5 Sekunden)
+num_points = len(sorted_power_W)
 total_seconds = 30 * 60 + 5
-# Gleichmäßig verteilte Zeitpunkte generieren
 time_points = np.linspace(0, total_seconds, num_points)
 print (len(time_points))
 
