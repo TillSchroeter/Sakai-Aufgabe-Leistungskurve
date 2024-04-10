@@ -22,12 +22,14 @@ def load_data(file_path):
 
 
 
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     data = load_data('activity.csv')
     power_W = data['PowerOriginal']
     print(power_W)
     sorted_power_W = bubble_sort(power_W)
-    print(sorted_power_W[::-1])
+    print(sorted_power_W[::-1])'''
   
+#Power_W_sorted = bubble_sort(power_W)
+#print (Power_W_sorted)
 
-
+#x = 3
